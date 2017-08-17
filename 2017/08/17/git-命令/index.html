@@ -12,7 +12,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/08/17/git-命令/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="git的常用命令git help &amp;lt;command&amp;gt;    显示command的帮助git show $id    显示某次提交的内容git co -- &amp;lt;file&amp;gt;    抛弃工作区file文件的修改git co .    抛弃工作区的修改git add &amp;lt;file&amp;gt;   将工作file文件修改提交到本地暂存区git add .   将所有工作文件修改提交到本">
-<meta property="og:updated_time" content="2017-08-17T02:42:20.846Z">
+<meta property="og:updated_time" content="2017-08-17T02:44:24.925Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git 命令">
 <meta name="twitter:description" content="git的常用命令git help &amp;lt;command&amp;gt;    显示command的帮助git show $id    显示某次提交的内容git co -- &amp;lt;file&amp;gt;    抛弃工作区file文件的修改git co .    抛弃工作区的修改git add &amp;lt;file&amp;gt;   将工作file文件修改提交到本地暂存区git add .   将所有工作文件修改提交到本">
@@ -86,13 +86,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="git的常用命令"><a href="#git的常用命令" class="headerlink" title="git的常用命令"></a>git的常用命令</h2><p><code>git help &lt;command&gt;</code>    显示command的帮助<br><code>git show $id</code>    显示某次提交的内容<br><code>git co -- &lt;file&gt;</code>    抛弃工作区file文件的修改<br><code>git co .</code>    抛弃工作区的修改<br><code>git add &lt;file&gt;</code>   将工作file文件修改提交到本地暂存区<br><code>git add .</code>   将所有工作文件修改提交到本地暂存区<br><code>git rm &lt;file&gt;</code>   从版本库中删除file文件<br><code>git rm &lt;file&gt; --cached</code>    从版本库中删除file文件，但不删除file文件<br><code>git reset &lt;file&gt;</code>    从暂存区恢复到工作文件<br><code>git reset -- .</code>    从暂存区恢复到工作文件<br><code>git reset --hard</code>    恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git ci &lt;file&gt;</div><div class="line">git ci .</div><div class="line">git ci -a</div><div class="line">git ci -am <span class="string">"some comments"</span></div></pre></td></tr></table></figure></p>
-<p> 将git add, git rm和git ci等操作都合并在一起做</p>
+        <h2 id="git的常用命令"><a href="#git的常用命令" class="headerlink" title="git的常用命令"></a>git的常用命令</h2><p><code>git help &lt;command&gt;</code>    显示command的帮助<br><code>git show $id</code>    显示某次提交的内容<br><code>git co -- &lt;file&gt;</code>    抛弃工作区file文件的修改<br><code>git co .</code>    抛弃工作区的修改<br><code>git add &lt;file&gt;</code>   将工作file文件修改提交到本地暂存区<br><code>git add .</code>   将所有工作文件修改提交到本地暂存区<br><code>git rm &lt;file&gt;</code>   从版本库中删除file文件<br><code>git rm &lt;file&gt; --cached</code>    从版本库中删除file文件，但不删除file文件<br><code>git reset &lt;file&gt;</code>    从暂存区恢复到工作文件<br><code>git reset -- .</code>    从暂存区恢复到工作文件<br><code>git reset --hard</code>    恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git ci &lt;file&gt;</div><div class="line">git ci .</div><div class="line">git ci -a</div><div class="line">git ci -am <span class="string">"some comments"</span></div><div class="line"><span class="comment"># 将git add, git rm和git ci等操作都合并在一起做</span></div></pre></td></tr></table></figure></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/08/17/git-命令/" data-id="cj6fuc8680000wkva60tgsdv1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/08/17/git-命令/" data-id="cj6fuenz800005cvazag10erm" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
